@@ -2,6 +2,7 @@ mkdocs==1.6.1
 markdown==3.9
 pyyaml==6.0.2
 pygments==2.20.0
+requests==2.32.3
 # Click 8.3 changed how `default=` interacts with multiple flag_value options
 # sharing the same dest. mkdocs 1.6.1's --livereload/--no-livereload pair hits
 # this regression: without an explicit flag, livereload silently resolves to
